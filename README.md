@@ -6,7 +6,7 @@
 
 ![UML do Bootcamp](https://github.com/KatarineAlbuquerque/projeto-java-bootcamp-gft/blob/main/images/bootcamp.png)
 
-#### Programa desenvolvido com dados estáticos que relaciona todos os modelos e exibe o resutado para o usuário.
+#### Programa desenvolvido com dados estáticos que relaciona todos os modelos e exibe o resultado para o usuário.
 
 #### O programa foi feito na IDE Eclipse e foi organizado em pacotes de acordo com suas finalidades:
 
