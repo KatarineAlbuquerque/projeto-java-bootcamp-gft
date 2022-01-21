@@ -4,7 +4,7 @@
 
 #### Programa desenvolvido através de um modelo UML feito por mim, para auxílio na modelagem da entidade de negócio.
 
-![UML do Bootcamp](https://github.com/KatarineAlbuquerque/projeto-java-bootcamp-gft/blob/main/images/bootcamp.png)
+![UML do Bootcamp](https://github.com/KatarineAlbuquerque/projeto-java-bootcamp-gft/blob/main/images/DC_Bootcamp.png)
 
 #### Programa desenvolvido com dados estáticos que relaciona todos os modelos e exibe o resultado para o usuário.
 

@@ -8,6 +8,8 @@ public class Mentoria extends Conteudo {
 	private Integer CargaHoraria;
 	private Bootcamp bootcamp;
 	private Dev dev;
+	
+	private Integer valorXP = 100;
 		
 	public Mentoria() {
 		super();
@@ -57,5 +59,10 @@ public class Mentoria extends Conteudo {
 	public String toString() {
 		return "[" + titulo + ", " + data + ", " + CargaHoraria + "h\n" 
 	+ bootcamp.getNome() + ", " + dev.getNome()+ "]\n";
+	}
+	
+	@Override
+	public Integer subtotalXP() {		
+		return this.valorXP+=100;
 	}
 }

@@ -8,6 +8,8 @@ public class Forum extends Conteudo {
 	private Bootcamp bootcamp;
 	private Dev dev;
 	
+	private Integer valorXP = 100;
+	
 	public Forum() {
 		super();
 	}
@@ -47,5 +49,10 @@ public class Forum extends Conteudo {
 	public String toString() {
 		return "["+titulo + ", " + data + ", " 
 	+ bootcamp.getNome() + ", " + dev.getNome() + "]";
+	}
+	
+	@Override
+	public Integer subtotalXP() {		
+		return this.valorXP+=100;
 	}
 }

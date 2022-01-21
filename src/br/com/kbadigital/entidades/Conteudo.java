@@ -48,4 +48,6 @@ public abstract class Conteudo {
 		Conteudo other = (Conteudo) obj;
 		return Objects.equals(titulo, other.titulo);
 	}	
+	
+	public abstract Integer subtotalXP();
 }

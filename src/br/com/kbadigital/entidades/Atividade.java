@@ -6,6 +6,8 @@ public class Atividade extends Conteudo {
 	private Bootcamp bootcamp;
 	private Dev dev;
 	
+	private Integer valorXP = 100;
+	
 	public Atividade() {
 		super();
 	}
@@ -54,5 +56,10 @@ public class Atividade extends Conteudo {
 	public String toString() {
 		return "["+ titulo + ", " + tipo + ", " +
 				bootcamp.getNome() + ", " + dev.getNome() + "]\n";
+	}
+
+	@Override
+	public Integer subtotalXP() {		
+		return this.valorXP+=100;
 	}
 }

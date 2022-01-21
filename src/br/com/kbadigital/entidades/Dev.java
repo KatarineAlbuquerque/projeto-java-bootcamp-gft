@@ -87,6 +87,18 @@ public class Dev {
 			System.out.println(mentoria.getTitulo());		
 		}
 	}
+	
+	public void totalXP() {
+		int subtotal = 0, soma = 0;
+		for(Atividade atividade : atividades) {
+			subtotal = atividade.subtotalXP();
+		}
+		for(Mentoria mentoria : mentorias) {
+			subtotal = mentoria.subtotalXP();
+		}
+		soma += subtotal;
+		System.out.println("Total XP: " + soma);
+	}
 
 	@Override
 	public String toString() {

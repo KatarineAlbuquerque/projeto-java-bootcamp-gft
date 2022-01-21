@@ -70,14 +70,28 @@ public class Programa {
 		Atividade atividade4 = new Atividade("Introdução o Git e Github",
 				"Nesse curso irá aprender a compartilhar seus projetos", 5, "Básico", bootcamp, dev4);
 
+		atividade1.subtotalXP();
+		atividade1.subtotalXP();
+		atividade11.subtotalXP();
+		atividade111.subtotalXP();
+		atividade2.subtotalXP();
+		atividade2.subtotalXP();
+		atividade22.subtotalXP();
+		atividade3.subtotalXP();
+		atividade4.subtotalXP();
+		
 		// Mentoria
 		Mentoria mentoria1 = new Mentoria("Aula Inaugural", "Chegou a hora de começar!", new Date(), 2, bootcamp, dev3);
 		Mentoria mentoria2 = new Mentoria("Como resolver desafios de código", "Esclarecimento de dúvidas", new Date(),
 				2, bootcamp, dev4);
+		
+		mentoria1.subtotalXP();
+		mentoria2.subtotalXP();
 
 		// Fórum
 		Forum forum = new Forum("Problemas ao compilar", "Dúvidas de IDES", new Date(), bootcamp, dev2);
-
+		forum.subtotalXP();
+		
 		// Atividades dos Devs no Bootcamp
 		System.out.println("------------------------------------------");
 		System.out.println("-> Atividades dos Devs no Bootcamp:\n");
@@ -142,15 +156,19 @@ public class Programa {
 		dev4.progredir(atividade4);
 		System.out.println(dev1.getNome());
 		dev1.exibirAtividade();
+		dev1.totalXP();
 		System.out.println();
 		System.out.println(dev2.getNome());
 		dev2.exibirAtividade();
+		dev2.totalXP();
 		System.out.println();
 		System.out.println(dev3.getNome());
 		dev3.exibirAtividade();
+		dev3.totalXP();
 		System.out.println();
 		System.out.println(dev4.getNome());
 		dev4.exibirAtividade();
+		dev4.totalXP();
 		System.out.println();
 		
 		// Mentorias dos Devs
